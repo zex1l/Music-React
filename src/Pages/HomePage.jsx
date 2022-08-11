@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import MusicService from "../Service/MusicServices";
+import Loading from "./Loading";
+
 import "../styles/style.css"
 
 const HomePage = () => {
@@ -27,6 +29,7 @@ const HomePage = () => {
     }
     
     const content = renderTopChart(topChart)
+    const loadingContent = loading ? <Loading/> : null
 
     return (
         <div className="main">
@@ -40,6 +43,7 @@ const HomePage = () => {
                         <div className="topChart__grid">
                             {content}
                         </div>
+                        {loadingContent}
                     </div>
                 </div>
             </div>

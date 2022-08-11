@@ -104,3 +104,12 @@ h2 {
 .topChart__music {
     font-size: 1em;
 }
+
+
+.loading {
+    margin: 100px auto;
+}
+
+.loading__inner {
+    margin: 0 auto;
+}
