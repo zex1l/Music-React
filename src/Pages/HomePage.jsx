@@ -39,7 +39,7 @@ const HomePage = () => {
                     <h2>Here you will find your favorite music</h2>
                     
                     <div className="topChart">
-                        <div className="topChart__logo">Top char musics</div>
+                        <div className="topChart__logo">Top chart musics</div>
                         <div className="topChart__grid">
                             {content}
                         </div>

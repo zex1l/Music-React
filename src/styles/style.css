@@ -113,3 +113,60 @@ h2 {
 .loading__inner {
     margin: 0 auto;
 }
+
+.search {
+    margin-top: 4em;
+}
+
+.search__inner {
+    text-align: center;
+}
+
+
+
+.search__input {
+    margin-top: 1em;
+    border-color: #000 ;
+    width: 18em;
+    height: 2em;
+    border-radius: 20px;
+    color: #000;
+
+    font-size: 24px;
+    padding: 10px;
+
+    transition: all 0.4s;
+}
+
+.search__input:focus {
+    width: 20em;
+}
+
+.btn__search {
+    width: 10em;
+    height: 3em;
+    border: none;
+    background-color: rgb(69, 65, 65);
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 1em;
+
+    transition: all 0.4s;
+}
+.btn__search:hover {
+    transform: translate(0, 1em);
+    background-color: rgb(158, 24, 24);
+    width: 11em;
+}
+
+.search__musics {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchMusic__item {
+    width: 20em;
+    border-radius: 30px;
+}
