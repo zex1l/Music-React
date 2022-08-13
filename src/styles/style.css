@@ -1,3 +1,60 @@
+
+@media (max-width: 1000px) {
+    .topChart .topChart__grid {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media (max-width: 500px) {
+    header .header__inner {
+        font-size: 18px;
+    }
+
+    .search__inner .search__input:focus {
+        width: 12em;
+    }
+
+    .search__inner .search__input {
+        width: 10em;
+        height: 1em;
+    }
+}
+
+@media (max-width: 430px) {
+    .main {
+        font-size: 10px;
+    }
+    .topChart .topChart__grid {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .topChart__grid .topChart__item {
+        padding: 4em;
+        font-size: 14px;
+    }
+
+    .topChart__item .topChart__img {
+        width: 10em;
+        height: 10em;
+    }
+
+}
+
+@media (max-width: 310px) {
+    .search__inner .search__input {
+        width: 7em;
+        height: 1em;
+    }
+
+    .search__inner .search__input:focus {
+        width: 8em;
+    }
+
+    header .header__inner {
+        font-size: 12px;
+    }
+}
+
 header {
     background-color: rgb(62, 66, 65);
 }
@@ -13,7 +70,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px 30px 0;
+    padding: 30px 30px 30px 30px;
     color: #ffff;
     font-size: 26px;
 }
