@@ -18,6 +18,10 @@
         width: 10em;
         height: 1em;
     }
+
+    .search__musics .searchMusic__item .topChart__img{
+        width: 6em;
+    }
 }
 
 @media (max-width: 430px) {
@@ -52,6 +56,10 @@
 
     header .header__inner {
         font-size: 12px;
+    }
+
+    .search__musics .searchMusic__item {
+        width: 15em;
     }
 }
 
